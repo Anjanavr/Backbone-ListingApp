@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact Manager</title>
+		<link rel="stylesheet" href="css/customer.css" />
+	</head>
+	<body>
+		<h1> Customers</h1>
+		<script id="customer-template" type="text/template">    
+		    <div class="well well-sm">Customer Name: <%= name %></div>
+		    <div class="well well-sm">Customer Type: <%= type %></div>
+		</script>
+		<script id="customers-template" type="text/template">
+		    <li class="list-group-item"><%= name %></li>
+		</script>
+	<div id="container">   
+		
+		<ul id="customers" class="list-group"></ul>
+		<div id="customer" class="panel panel-default"></div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+			
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore.js"></script>
+			
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.0/backbone-min.js"></script>
+
+	
+	<script src="js/index.js"></script>
+	</body>
+</html>

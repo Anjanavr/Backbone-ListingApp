@@ -1,0 +1,28 @@
+@font-face{
+   font-family: 'SinkinSans';
+   src: url("../font/SinkinSans-600SemiBold.otf");}
+
+@font-face{
+   font-family: 'kaushan';
+   src: url("../font/KaushanScript-Regular.otf");}
+h1 {
+	font-family: 'kaushan';
+	font-size: 56px;
+	text-align: center;
+}
+div#container {
+  font-size: 30px;
+  margin: 5% auto;
+  width: 30%;
+}
+
+div#customer {
+  margin-left: 9%;
+}
+
+li {
+	list-style-type: none;
+	border: 1px solid grey;
+	border-radius: 5px;
+	margin:1%;
+}
